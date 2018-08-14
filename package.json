@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/guilhermependezza/tetris-web/issues"
   },
-  "homepage": "https://github.com/guilhermependezza/tetris-web#readme"
+  "homepage": "https://github.com/guilhermependezza/tetris-web#readme",
+  "devDependencies": {
+    "webpack": "^4.16.5"
+  }
 }
