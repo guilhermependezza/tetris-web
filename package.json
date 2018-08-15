@@ -4,7 +4,8 @@
   "description": "A web version of game tetris",
   "main": "./src/index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack",
+    "start:dev": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/guilhermependezza/tetris-web#readme",
   "devDependencies": {
     "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }
